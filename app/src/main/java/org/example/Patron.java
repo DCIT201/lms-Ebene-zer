@@ -34,7 +34,7 @@ public class Patron {
     }
 
     // Return a book
-    public void returnBook(Book book) {
+      public void returnBook(Book book) {
         borrowedBooks.remove(book);
     }
 
